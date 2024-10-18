@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo Roguelike</title>
+    <title>Não Morra</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game">
-        <canvas id="gameCanvas" width="800" height="600"></canvas>
-        <div id="gameOver" class="hidden">Game Over!</div>
+    <canvas id="gameCanvas" width="900" height="700"></canvas>
+    <div id="gameOver" class="hidden">
+        <h1>GAME OVER</h1>
+        <button onclick="startGame()">Recomeçar</button>
     </div>
-    <div id="gameOver" class="hidden" style="color: white; font-size: 30px;">Game Over!</div>
-
     <script src="script.js"></script>
 </body>
 </html>
